@@ -3,8 +3,7 @@ function add(e)
     var text=document.getElementsByTagName('input')[0];
     var nd=document.createElement('li');
     var nb=document.createElement('button');
-    
-    nb.setAttribute('class','delete');
+
     nb.setAttribute('style','margin-left: 10px;');
     nd.innerText=text.value;
     nb.innerText="Delete"
